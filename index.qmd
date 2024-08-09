@@ -140,7 +140,6 @@ First of all I would like to introduce to you the HIFIS platform.
 - Software Quality Assurance (SQA)
 - PR and community building (RSE)
 
-
 :::
 ::: column
 
@@ -232,7 +231,7 @@ Gas Residence Time
 - Boundary Conditions are based on transient Data for 
     - partial gas pressures
     - temperatures
-- [Particle Conversion Repo](https://github.com/tfoerst3r)
+- [Particle Conversion Repo](https://github.com/tfoerst3r/particle_conversion)
 
 <p style="margin-top:2rem"/>
 **Post flame characterisation (bash, python)**
