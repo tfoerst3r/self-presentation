@@ -154,7 +154,7 @@ First of all I would like to introduce to you the HIFIS platform.
 
 **Other Projects**
 
-- [Consulting Reporting](https://codebase.helmholtz.cloud/hifis/software/consulting/consulting-reports)
+- [Consulting Reporting Toolkit](https://github.com/hifis-net/Consulting-Reporting-Toolkit)
 - [Teaching (python, indico, mkdocs)](https://www.hifis.net/services/software/training#workshop-materials)
 
 :::
