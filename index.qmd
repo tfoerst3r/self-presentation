@@ -1,0 +1,255 @@
+---
+title: Self-Presentation 
+subtitle: as an Process Engineer and RSE
+author: Thomas Förster
+date: 2024-08-09
+date-format: DD.MM.YYYY
+format:
+  revealjs:
+    theme: ./custom/themes/default.scss
+    transition: none
+    transition-speed: fast
+    slide-number: c
+    show-notes: false
+    html-math-method: katex
+    toc: false
+    menu: false
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 5
+      buttons: false
+    citation-hover: true
+    footnote-hover: true
+width: 1920
+heigth: 1080
+bibliography: ./reference.bib
+footer: Thomas Förster | foerster.thomas@gmx.de
+---
+
+
+# Present (2021 til 2024)
+
+at the Helmholtz Center Dresden Rossendorf (HZDR)
+
+<!-- removed from preamble: 
+institute:  
+logo: ./custom/images/logo.png
+-->
+
+<header>
+<link href="//vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
+<script src="//vjs.zencdn.net/7.10.2/video.min.js"></script>
+</header>
+
+\newcommand{\si}[1]{\mathrm{#1}}
+\newcommand{\SI}[2]{#1\,\mathrm{#2}}
+\newcommand{\*}{\ }
+
+<!-- Present, Past and Future format -->
+<!--=============-->
+<!--== Present ==-->
+<!--=============-->
+::: notes
+Derzeit bin als IT consultant 
+
+Example:
+I'm currently a social media manager for a tech start-up. I execute the content strategy for various social media channels.
+:::
+
+
+<!--=============-->
+<!--=== Slide ===-->
+<!--=============-->
+## HIFIS -- a Helmholtz Platform
+
+<!----- 
+![](./images/logo-hifis.svg){style="transform:scale(0.85);" fig-align="left"}
+![](./images/logo-hifis.svg){style="transform:scale(0.85);" fig-align="left"}
+## {background-image="./images/hifis-homepage.png" background-link="https://hifis.net"}
+## ![](./images/logo-hifis.svg){width=15%}
+----->
+
+<!------ NOTES ------>
+::: notes
+
+- Thank you for the kind introduction. 
+- Also welcome to my presentation.
+- My name is Thomas Förster and work at the Helmholtz center HZDR in Dresden
+- I am going to talk about a Consulting experience HIFIS initiative. 
+
+<!------->
+
+First of all I would like to introduce to you the HIFIS platform. 
+
+- HIFIS is a colaboration platform  of 11 out of 18+1 Helmholtz centers
+- The goal of HIFIS is to builds and sustains an excellent IT infrastructure across the Helmholtz association
+- We want to embrace the sustainability idea data, software and services
+
+<!------->
+
+- The initiative is build on three pillars: Software/Cloud/Backbone
+- Cloud/Backbone are responsible for supporting infrastrucure
+- And Software, where I originate from, is working on the clients side and we also operate important user heavy services like gitlab and mattermost
+
+<!------->
+
+
+:::
+<!------------------->
+
+:::::: {.columns .middle}
+
+<!---- column ---->
+::: {.column width=40%}
+
+::: centered
+![](images/hifis-location.svg){width=80%}
+:::
+
+:::
+::: {.column style="width:60%;"}
+
+<p style="margin-top:0%"></p>
+- Shares IT services & resources **within Helmholtz**
+- Ensures sustainability of data, software and services 
+- My task was to provides **trainings** and [**consultations**](https://www.hifis.net/services/software/consulting.html)
+
+
+<center>
+![](images/hifis-claim.svg){style="width:60%;"}
+![](images/hifis-structure.svg){style="width:50%;"}
+</center>
+
+:::
+::::::
+
+<!--=============-->
+<!--=== Slide ===-->
+<!--=============-->
+## Task at HZDR
+
+
+:::::: {.columns .middle}
+::: column
+
+**Technical Lead of Consult Group**
+
+- [Standarization of workflows](https://www.hifis.net/consulting-handbook/)
+- [Organization and Documentation](https://codebase.helmholtz.cloud/hifis/software/consulting)
+- Code project documentation (mkdocs)
+- Software Quality Assurance (SQA)
+- PR and community building (RSE)
+
+
+:::
+::: column
+
+**Consultations**
+
+- [\[Consult\] Cod Growth Model](https://codebase.helmholtz.cloud/awi_paleodyn/growth-model-atlantic-cod)
+- \[Consult\] Tensorflow at HEMERA (+ GPU usage)
+- \[Consult\] RDM training via Jupyter Notebooks
+- [\[Consult\] IQTools](https://github.com/xaratustrah/iqtools)
+
+
+**Other Projects**
+
+- [Consulting Reporting](https://codebase.helmholtz.cloud/hifis/software/consulting/consulting-reports)
+- [Teaching (python, indico, mkdocs)](https://www.hifis.net/services/software/training#workshop-materials)
+
+:::
+::::::
+
+
+<!--==========-->
+<!--== Past ==-->
+<!--==========-->
+# Past (2013-2019)
+
+as a Researcher at the TU Freiberg as a CFD Process Engineer
+
+<!----------------->
+<!----- Slide ----->
+<!----------------->
+## Reactor Simulation
+
+:::::: {.columns .middle}
+::: {.column width=35%}
+
+Gas Residence Time
+<video 
+  id="my-player" 
+  class="video-js" 
+  controls 
+  data-setup='{}' 
+  autoplay 
+  height=700>
+  <source src="./images/gsp018_42asym.webm" type="video/webm"/>
+</video>
+
+:::
+
+::: {.column width="70%"}
+**Gasification Simulations**
+
+- 2D/3D simulations
+- Non-catalytic partial oxidation
+- Primary fuel coal
+- High pressure $>\SI{20}{bar(a)}$
+- High temperature $>\SI{1500}{K}$
+- Estimation of pyrolysis/heterogeneous boundary conditions
+- Boundary conditions wall modeling
+:::
+::::::
+
+![](./images/pyrolysis_ex.png){.absolute top=30 right=0 width="550"}
+
+<!----------------->
+<!----- Slide ----->
+<!----------------->
+## Model developments
+
+:::::: columns
+
+::: {.column width="48%"}
+<p style="margin-top:2rem"/>
+**Preprocessor for $\mathrm{\bf C_xH_yO_zN_aS_b}$ (python)**
+
+- Solver to determine different decomposition compositions
+
+<p style="margin-top:2rem"/>
+**Wall two-way boundary conditions (c routine for ANSYS Fluent)**
+
+- Iterative approach to determine a 1D heat loss at the wall depending on the solid/liquid phases sticking to the walls
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+**0D Model for heterogeneous reactions (python)**
+
+- Boundary Conditions are based on transient Data for 
+    - partial gas pressures
+    - temperatures
+- [Particle Conversion Repo](https://github.com/tfoerst3r)
+
+<p style="margin-top:2rem"/>
+**Post flame characterisation (bash, python)**
+
+- What reactions are dominant in which area of the flame
+- Flame is defined via the $\mathrm{OH^-}$ concentration
+
+:::
+::::::
+
+<!----------------->
+<!----- Slide ----->
+<!----------------->
+## {}
+
+:::middlepoint
+<p style="font-size:6rem; margin-top:-8%;"><b>Thank you</b></p>
+:::
+
+
