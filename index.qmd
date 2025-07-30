@@ -1,0 +1,282 @@
+---
+title: About Me
+subtitle: ""
+format: clean-revealjs
+html-math-method:
+  method: mathjax
+  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+author:
+  - name: Thomas Förster
+    email: foerster.thomas@gmx.de
+    affiliations: ""
+date: 2025-07-30
+date-format: DD.MM.YYYY
+title-slide-attributes:
+    data-background-color: "#98bcc4"
+width: 1600
+height: 900
+#bibliography: ./references.bib
+---
+
+# HIFIS (2021-2024)
+at the Helmholtz Center Dresden Rossendorf (HZDR)
+
+<header>
+<link href="//vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
+<script src="//vjs.zencdn.net/7.10.2/video.min.js"></script>
+</header>
+
+\newcommand{\si}[1]{\mathrm{#1}}
+\newcommand{\SI}[2]{#1\,\mathrm{#2}}
+\newcommand{\*}{\ }
+
+::: notes
+Derzeit bin als IT consultant 
+
+Example:
+I'm currently a social media manager for a tech start-up. I execute the content strategy for various social media channels.
+:::
+
+<!----------------->
+<!----- Slide ----->
+<!----------------->
+## What is HIFIS
+
+<!----- 
+![](./images/logo-hifis.svg){style="transform:scale(0.85);" fig-align="left"}
+![](./images/logo-hifis.svg){style="transform:scale(0.85);" fig-align="left"}
+## {background-image="./images/hifis-homepage.png" background-link="https://hifis.net"}
+## ![](./images/logo-hifis.svg){width=15%}
+----->
+
+<!------ NOTES ------>
+::: notes
+
+- Thank you for the kind introduction. 
+- Also welcome to my presentation.
+- My name is Thomas Förster and work at the Helmholtz center HZDR in Dresden
+- I am going to talk about a Consulting experience HIFIS initiative. 
+
+<!------->
+
+First of all I would like to introduce to you the HIFIS platform. 
+
+- HIFIS is a colaboration platform  of 11 out of 18+1 Helmholtz centers
+- The goal of HIFIS is to builds and sustains an excellent IT infrastructure across the Helmholtz association
+- We want to embrace the sustainability idea data, software and services
+
+<!------->
+
+- The initiative is build on three pillars: Software/Cloud/Backbone
+- Cloud/Backbone are responsible for supporting infrastrucure
+- And Software, where I originate from, is working on the clients side and we also operate important user heavy services like gitlab and mattermost
+
+<!------->
+
+:::
+<!------------------->
+
+:::::: columns
+
+<!---- column ---->
+::: {.column width=45%}
+
+<p style="margin-top:-5%"></p>
+![](images/hifis-location.svg){style="width:90%;"}
+
+:::
+::: {.column style="width:55%;"}
+
+<p style="margin-top:5%"></p>
+
+<center>
+![](images/hifis-claim.svg){width="65%"}
+![](images/hifis-structure.svg){width="60%"}
+</center>
+
+<p></p>
+
+- I was part of HIFIS (Software) at HZDR
+- HIFIS share IT services & resources **within Helmholtz**
+- Goals are to ensures sustainability of data, software and services 
+- I providing and supported **consultations** and **trainings**
+
+:::
+::::::
+
+<!----------------->
+<!----- Slide ----->
+<!----------------->
+## My Task at HZDR/HIFIS
+
+<p style="margin-top:5%"></p>
+
+:::::: columns
+::: column
+
+<p style="margin-top:3em"></p>
+
+**My Role a Consultant [(Link)](https://www.hifis.net/services/software/consulting/)**
+
+- Lead of the group
+- [Standarization of Workflows (Handbook)](https://www.hifis.net/consulting-handbook/)
+- [Organization and Documentation](https://codebase.helmholtz.cloud/hifis/software/consulting)
+- [Code project documentation (mkdocs)](https://github.com/tfoerst3r/generate_mkdocs)
+- Software Quality Assurance (SQA)
+- PR and RSE community building ([GitLab](https://codebase.helmholtz.cloud/rse-community) and [Indico](https://events.hifis.net/category/123/))
+
+:::
+::: column
+
+**My Supported Consulting Project (gitlab & github)** 
+
+- [Cod Growth Model (Code + Structure + CI)](https://codebase.helmholtz.cloud/awi_paleodyn/growth-model-atlantic-cod)
+- [TetraX (CI)](https://www.tetrax.software/index.html) 
+- [IQTools](https://github.com/xaratustrah/iqtools)
+- *Shotsheet* a documentation tool based on flask + mongo (inhouse, docker compose)
+
+**Other Projects**
+
+- [Reporting Tools](https://github.com/tfoerst3r/reptool)
+- [Course material for python, indico, mkdocs](https://www.hifis.net/services/software/training/) 
+
+:::
+::::::
+
+<!--==========-->
+<!--== Past ==-->
+<!--==========-->
+# Research Assistant (2013-2019)
+
+as a Researcher at the TU Freiberg
+
+<!----------------->
+<!----- Slide ----->
+<!----------------->
+## Reactor Simulation
+
+:::::: columns
+::: {.column width=30%}
+
+
+<p style="margin-top:5rem"/>
+
+<video 
+  id="my-player" 
+  class="video-js" 
+  controls 
+  data-setup='{}' 
+  autoplay 
+  height=700>
+  <source src="./images/gsp018_42asym.webm" type="video/webm"/>
+</video>
+
+:::
+
+::: {.column width="70%"}
+
+<p style="margin-top:11rem"/>
+
+**Gasification Simulations**
+
+- 2D/3D CFD (computer fluid dynamics) simulations
+- Non-catalytic partial oxidation
+- Primary fuel coal
+- High pressure $>\SI{20}{bar(a)}$
+- High temperature $>\SI{1500}{K}$
+- Estimation of pyrolysis/heterogeneous boundary conditions
+- Boundary conditions wall modeling
+:::
+::::::
+
+![](./images/pyrolysis_ex.png){.absolute top=100 right=10 width="600"}
+
+<!----------------->
+<!----- Slide ----->
+<!----------------->
+## Model developments
+
+
+<p style="margin-top:5rem"/>
+
+:::::: columns
+::: {.column width="48%"}
+<p style="margin-top:8rem"/>
+**Preprocessor for $\mathrm{\bf C_{x}H_{y}O_{z}N_{a}S_{b}}$ (python)**
+
+- Solver to determine different decomposition compositions
+
+<p style="margin-top:2rem"/>
+**Wall two-way boundary conditions (c routine for ANSYS Fluent)**
+
+- Iterative approach to determine a 1D heat loss at the wall depending on the solid/liquid phases sticking to the walls
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+**0D Model for heterogeneous reactions (python)**
+
+- Boundary Conditions are based on transient Data for 
+    - partial gas pressures
+    - temperatures
+- [Particle Conversion Repo (github)](https://github.com/tfoerst3r)
+
+<p style="margin-top:2rem"/>
+**Post flame characterisation (bash, python)**
+
+- What reactions are dominant in which area of the flame
+- Flame is defined via the $\mathrm{OH^-}$ concentration
+
+:::
+::::::
+
+
+<!--============-->
+<!--== Future ==-->
+<!--============-->
+# Future (2025)
+
+<!----------------->
+<!----- Slide ----->
+<!----------------->
+## {}
+
+
+:::::: {.columns} 
+::: {.column width="25%"}
+<p style="margin-top:12em"/>
+**ML** 
+:::
+::: {.column width="25%"}
+<p style="margin-top:12em"/>
+**SQA**
+:::
+::: {.column width="25%"}
+<p style="margin-top:12em"/>
+**Developer**
+:::
+::: {.column .large width="25%"}
+<p style="margin-top:12em"/>
+**DevOps**
+:::
+::::::
+
+<!----------------->
+<!----- Slide ----->
+<!----------------->
+## {}
+
+
+:::::: columns
+::: {.column width="35%"}
+:::
+::: {.column width="30%"}
+<p style="margin-top:12em"/>
+**Thank you.** <br> <br> If you have any questions do not hesitate to ask. 
+:::
+::: {.column width="35%"}
+:::
+::::::
+
