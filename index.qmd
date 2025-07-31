@@ -236,38 +236,42 @@ as a Researcher at the TU Freiberg
 <!--============-->
 <!--== Future ==-->
 <!--============-->
-# Future (2025)
+# Prospects (2025)
 
 <!----------------->
 <!----- Slide ----->
 <!----------------->
 ## {}
+<p style="margin-top:15rem"/>
 
+:::::: columns
 
-:::::: {.columns} 
-::: {.column width="25%"}
-<p style="margin-top:12em"/>
-**ML** 
+::: column
+
+#### Current activities
+
+- ML Course at geeksforgeeks.com
+- Workshops (bash, quarto) at the Datenspuren (C3D2)
+    
 :::
-::: {.column width="25%"}
-<p style="margin-top:12em"/>
-**SQA**
+
+::: column
+
+#### Areas I am interest in
+
+- Machine Learning
+- Software Quality Assurance
+- Software Development
+- DevOps (Deploying own services, like HedgeDoc)
+
 :::
-::: {.column width="25%"}
-<p style="margin-top:12em"/>
-**Developer**
-:::
-::: {.column .large width="25%"}
-<p style="margin-top:12em"/>
-**DevOps**
-:::
+
 ::::::
 
 <!----------------->
 <!----- Slide ----->
 <!----------------->
 ## {}
-
 
 :::::: columns
 ::: {.column width="35%"}
