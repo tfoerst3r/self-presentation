@@ -16,6 +16,34 @@ height: 900
 #bibliography: ./references.bib
 ---
 
+## About Me
+
+:::::: columns
+
+::: {.column width=60%}
+#### RSE and Engineer
+
+- I worked in since 2012 as Researcher 
+  and touched topics:
+  - Scripting (mainly bash)
+  - Pre & Postprocessing (mainly python)
+  - HPC for scientific computations
+
+- Best Practices for Software Development
+  - Git workflow including branching and CI
+  - Python Package development
+
+- Advocate for Linux since 2012
+
+:::
+::: {.column width=40%}
+
+![](./images/me.png){width=45%}
+
+:::
+
+::::::
+
 # HIFIS (2021-2024)
 at the Helmholtz Center Dresden Rossendorf (HZDR)
 
