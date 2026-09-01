@@ -63,17 +63,10 @@ Example:
 I'm currently a social media manager for a tech start-up. I execute the content strategy for various social media channels.
 :::
 
-<!----------------->
-<!----- Slide ----->
-<!----------------->
+<!--=============-->
+<!--=== Slide ===-->
+<!--=============-->
 ## What is HIFIS
-
-<!----- 
-![](./images/logo-hifis.svg){style="transform:scale(0.85);" fig-align="left"}
-![](./images/logo-hifis.svg){style="transform:scale(0.85);" fig-align="left"}
-## {background-image="./images/hifis-homepage.png" background-link="https://hifis.net"}
-## ![](./images/logo-hifis.svg){width=15%}
------>
 
 <!------ NOTES ------>
 ::: notes
@@ -130,9 +123,9 @@ First of all I would like to introduce to you the HIFIS platform.
 :::
 ::::::
 
-<!----------------->
-<!----- Slide ----->
-<!----------------->
+<!--=============-->
+<!--=== Slide ===-->
+<!--=============-->
 ## My Task at HZDR/HIFIS
 
 <p style="margin-top:5%"></p>
